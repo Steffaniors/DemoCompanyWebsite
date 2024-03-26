@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        body{
+            background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+        }
+
+        .menu {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo a:hover {
+            color: red;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        ul li a:hover {
+            color: red;
+        }
+
+        ul li .dropdown {
+            display: none;
+            position: absolute;
+            background-color: white;
+        }
+
+        ul li:hover .dropdown {
+            display: block;
+        }
+
+        ul .dropdown li {
+            display: block;
+        }
+
+        ul .dropdown li a {
+            padding: 6px;
+            color: black;
+            font-size: 16px;
+        }
+
+        ul .dropdown li a:hover {
+            color: red;
+            padding: 5px;
+        }
+
+        .header {
+        text-align: center;
+        margin-top: 5px;
+        padding: 5px;
+        color: white;
+        background-color: #099698;
+        width:500px;
+        margin-top: 20px;
+        margin-left: 410px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #22c1c3, 0 0 15px #22c1c3, 0 0 25px #22c1c3, 0 0 100px #22c1c3;
+    }
+
+    .container {
+        background-color: #099698;
+    }
+
+    .developer img {
+        height: 350px;
+        width: 350px;
+        margin-top: -90px;
+        margin-bottom: 150px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 10px #22c1c3, 0 0 15px #22c1c3, 0 0 25px #22c1c3, 0 0 100px #22c1c3;
+    }
+    .container p{
+        color:white;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+    .developer {
+        margin-right: 20px;
+    }
+        footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+.footer-c12, .footer-content2, .footer-21, .footer-22, .footer-content3, .footer-31, .footer-32, .footer-content4, .footer-41, .footer-42{
+    margin-top: 6px;
+}
+.footer-42 li a {
+    color: white; 
+    text-decoration: none; 
+}
+
+    </style>
+
+    <body>
+        <nav>
+            <div class="menu">
+                <div class="logo">
+                    <a href="index.html" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Demo Software
+                        Solutions</a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">What we do</a>
+                        <ul class="dropdown">
+                            <li><a href="webapp.html">Web App Development</a></li> 
+                            <li><a href="Mobileappdev.html">Mobile App Development</a></li>
+                            <li><a href="E-Commerce.html">E-Commerce Solutions</a></li>
+                            <li><a href="game.html">Game App Development</a></li>
+                            <li><a href="Graphic design.html">Graphics Design</a></li>
+                            <li><a href="digital marketing.html">Digital Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="joinus.html">Join Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">LogIn</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="header">Game App Development</h1>
+        <div class="container">
+            <div class="developer">
+            <img src="./images/gamedev.png" style="transform: translate(60px,120px);" alt="Game Development">
+
+        </div>
+        <p>The process of building concepts for games, defining the design, development, test and launch of a game is like crafting a sculpture. The crucial part of this craft is the detailed information about the game mechanics whereas, the players' engrossment into the game is the great reward for any game designer.<br>
+            We may expect different talents from different games, but each game furnishes certain talent to the players such as hand-eye co-ordination for sure. The class of a game is justified from a breath-taking deflection and a tough level design .
+           <br> We own an established track record of delivering alluring and interesting iOS and Android games. We serve for a lot of entertainment businesses across the globe.<br>
+            <b>Demo Software Solutions</b> meticulously understands the logic of a game through the client’s storytelling and narration. We have the Client’s whole idea about the game at heart of our operations and fine-tune design the game app. Diverse and incredible themes are offered to the participants to keep their gaming experience joyful.</p>
+        </div>
+        <footer>
+            <div class="footer-content1">
+                <h2 class="footer-c11">Demo Software Solutions</h2>
+                <h4 class="footer-c12">Excellent Software Services Assured</h4>
+            </div>
+            <div class="footer-content2">
+                <h2 class="footer-21">Our Services</h2>
+                <ul class="footer-22">
+                    <li>Web Development</li>
+                    <li>E-commerce App Development</li>
+                    <li>Mobile App Development</li>
+                    <li>Game App Development</li>
+                    <li>Graphics Design</li>
+                    <li>Digital Marketing</li>
+                </ul>
+            </div>
+            <div class="footer-content3">
+                <h2 class="footer-31">Company</h2>
+                <ul class="footer-32">
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Careers</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+            <div class="footer-content4">
+                <h2 class="footer-41">Follow Us</h2>
+                <ul class="footer-42">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+
+</html>

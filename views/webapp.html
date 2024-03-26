@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        background-color: #f8f9fa;
+        padding: 10px 0;
+    }
+
+    .menu {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo a {
+        text-decoration: none;
+        color: #333;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .logo a:hover {
+        color: red;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    ul li a:hover {
+        color: red;
+    }
+
+    ul li .dropdown {
+        display: none;
+        position: absolute;
+        background-color: white;
+    }
+
+    ul li:hover .dropdown {
+        display: block;
+    }
+
+    ul .dropdown li {
+        display: block;
+    }
+
+    ul .dropdown li a {
+        padding: 6px;
+        color: black;
+        font-size: 16px;
+    }
+
+    ul .dropdown li a:hover {
+        color: red;
+        padding: 5px;
+    }
+
+    body {
+        background-image: url("./images/person-front-computer-working-html.jpg");
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 15px;
+    }
+
+    .footer-c12,
+    .footer-content2,
+    .footer-21,
+    .footer-22,
+    .footer-content3,
+    .footer-31,
+    .footer-32,
+    .footer-content4,
+    .footer-41,
+    .footer-42 {
+        margin-top: 6px;
+    }
+
+    .footer-42 li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .header {
+        text-align: center;
+        margin-top: 5px;
+        padding: 5px;
+        color: white;
+        background-color: #284cc1;
+        width:500px;
+        margin-top: 20px;
+        margin-left: 410px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #0d72f7, 0 0 15px #0d72f7, 0 0 25px #0d72f7, 0 0 100px #0d72f7;
+    }
+
+    .container {
+        background-color: #284cc1;
+    }
+
+    .developer img {
+        height: 380px;
+        width: 400px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 10px #0d72f7, 0 0 15px #0d72f7, 0 0 25px #0d72f7, 0 0 100px #0d72f7;
+    }
+    .container p{
+        color:white;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .developer {
+        margin-right: 20px;
+        /* Adjust as needed */
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Demo Software
+                    Solutions</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">What we do</a>
+                    <ul class="dropdown">
+                        <li><a href="webapp.html">Web App Development</a></li> 
+                        <li><a href="Mobileappdev.html">Mobile App Development</a></li>
+                        <li><a href="E-Commerce.html">E-Commerce Solutions</a></li>
+                        <li><a href="game.html">Game App Development</a></li>
+                        <li><a href="Graphic design.html">Graphics Design</a></li>
+                        <li><a href="digital marketing.html">Digital Marketing</a></li>
+                    </ul>
+                </li>
+                <li><a href="joinus.html">Join Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">LogIn</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="header">Web Application Development</h1>
+    <br>
+    <div class="container">
+        <div class="developer">
+            <img src="./images/developer.png" alt="WebSite Development">
+        </div>
+        <p>An impressive Web application created using high tech frameworks fetches and makes the backend data to be
+            displayed on the user’s device, such as a computer screen or mobile screen, at an extraordinary speed based
+            on the user's activity. The Internet makes these actions possible around the world. Also, Web applications
+            provide an innovative approach of maintaining Business processes without much manpower.
+            In the digital transformation space, Web applications untangle the robust daily tasks of a business in a
+            well-organized and precise manner as the business users see a good working website as a fine coat of arms.
+            The use of innovative tools and convincing app tests make transcendent applications possible. Starting from
+            the website performance to data security, we make available all kinds of support from our team to the
+            clients.
+            An excellent website is the one that gratifies the end users through its friendly handling feature.
+            Optimizing a website ensures the pull of potential customers. Our services include not only customization of
+            websites to be SEO friendly but also website redesigns and much more.<br>
+            <b>Demo Software Solutions</b> has a leading expert level team in developing and customizing Web
+            applications, e-commerce applications, database driven applications and open-source technologies.
+        </p>
+    </div>
+
+    <footer>
+        <div class="footer-content1">
+            <h2 class="footer-c11">Demo Software Solutions</h2>
+            <h4 class="footer-c12">Excellent Software Services Assured</h4>
+        </div>
+        <div class="footer-content2">
+            <h2 class="footer-21">Our Services</h2>
+            <ul class="footer-22">
+                <li>Web Development</li>
+                <li>E-commerce App Development</li>
+                <li>Mobile App Development</li>
+                <li>Game App Development</li>
+                <li>Graphics Design</li>
+                <li>Digital Marketing</li>
+            </ul>
+        </div>
+        <div class="footer-content3">
+            <h2 class="footer-31">Company</h2>
+            <ul class="footer-32">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Careers</li>
+                <li>Login</li>
+            </ul>
+        </div>
+        <div class="footer-content4">
+            <h2 class="footer-41">Follow Us</h2>
+            <ul class="footer-42">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

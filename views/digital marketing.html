@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #f8f9fa; 
+    padding: 10px 0; 
+}
+
+.menu {
+    max-width: 1200px; 
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.logo a:hover{
+    color: red;
+}
+ul {
+    list-style-type: none; 
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 18px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li a:hover{
+    color: red;
+}
+ul li .dropdown {
+    display: none; 
+    position: absolute;
+    background-color:white; 
+}
+
+ul li:hover .dropdown {
+    display: block; 
+}
+
+ul .dropdown li {
+    display: block;
+}
+
+ul .dropdown li a {
+    padding: 6px; 
+    color: black; 
+    font-size: 16px; 
+}
+
+ul .dropdown li a:hover {
+    color: red;
+    padding: 5px; 
+}
+        body {
+            background-image: url("./images/marketing.png");
+
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .header {
+        text-align: center;
+        margin-top: 5px;
+        padding: 5px;
+        color: white;
+        background-color: #7b27ac;
+        width:500px;
+        margin-top: 20px;
+        margin-left: 410px;
+        border-radius: 10px;
+        box-shadow: 0 0 50px #b668e4, 0 0 5px #d357f8, 0 0 20px #d042f3, 0 0 10px #d93bf8;
+    }
+
+    .container {
+        background-color: #7b27ac;
+    }
+
+    .developer img {
+        height: 350px;
+        width: 350px;
+        margin-top: -90px;
+        margin-bottom: 150px;
+        margin-right: -10px;
+        margin-left: -750px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 50px #b668e4, 0 0 5px #d357f8, 0 0 20px #d042f3, 0 0 10px #d93bf8;
+    }
+    .container p{
+        color:white;
+        margin-left: 250px;
+        margin-right:10px;
+        font-size: 20px;
+        padding-left: 190px;
+
+    }
+    .developer {
+        margin-right: 20px;
+    }
+        footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+.footer-c12, .footer-content2, .footer-21, .footer-22, .footer-content3, .footer-31, .footer-32, .footer-content4, .footer-41, .footer-42{
+    margin-top: 6px;
+}
+.footer-42 li a {
+    color: white; 
+    text-decoration: none; 
+}
+
+    </style>
+
+    <body>
+        <nav>
+            <div class="menu">
+                <div class="logo">
+                    <a href="index.html" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Demo Software
+                        Solutions</a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">What we do</a>
+                        <ul class="dropdown">
+                            <li><a href="webapp.html">Web App Development</a></li> 
+                            <li><a href="Mobileappdev.html">Mobile App Development</a></li>
+                            <li><a href="E-Commerce.html">E-Commerce Solutions</a></li>
+                            <li><a href="game.html">Game App Development</a></li>
+                            <li><a href="Graphic design.html">Graphics Design</a></li>
+                            <li><a href="digital marketing.html">Digital Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="joinus.html">Join Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">LogIn</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="header">Digital Marketing</h1>
+        <div class="container">
+        <div class="developer">
+            <img src="./images/digital.jpg" style="transform: translate(800px,120px);" alt="Digital Marketing">
+
+        </div>
+        <p>Even if Marketing is what a business requires to stretch, most of the businesses do not have in-build expertise in marketing services. Under such circumstances, certain expert agencies become handy by developing a distinguishable business.
+            Digital marketing needs complete understanding of the current business processes as it gets reflected in both present and future necessities. The major step in marketing is gathering ideas and converting them into reality without fail. A cost-effective marketing should be implemented easily without affecting the current business growth.
+            A successfully implemented digital marketing should increase your stock, service sales and also should catch the view of utmost audience.
+            We help our customers adopt to digital transformation easily by reducing their hurdles they face in every step of their way. Our piercing hands-on approach and great expertise enables triumph to a business transformation that promotes growth.
+We achieve digital marketing through Social Media Marketing, Search Engine Marketing, SEO Services and through evolving new strategies.
+        </p>
+    </div>
+    <footer>
+        <div class="footer-content1">
+            <h2 class="footer-c11">Demo Software Solutions</h2>
+            <h4 class="footer-c12">Excellent Software Services Assured</h4>
+        </div>
+        <div class="footer-content2">
+            <h2 class="footer-21">Our Services</h2>
+            <ul class="footer-22">
+                <li>Web Development</li>
+                <li>E-commerce App Development</li>
+                <li>Mobile App Development</li>
+                <li>Game App Development</li>
+                <li>Graphics Design</li>
+                <li>Digital Marketing</li>
+            </ul>
+        </div>
+        <div class="footer-content3">
+            <h2 class="footer-31">Company</h2>
+            <ul class="footer-32">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Careers</li>
+                <li>Login</li>
+            </ul>
+        </div>
+        <div class="footer-content4">
+            <h2 class="footer-41">Follow Us</h2>
+            <ul class="footer-42">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+    </body>
+
+</html>

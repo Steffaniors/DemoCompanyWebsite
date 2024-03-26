@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.form-group{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input{
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+.submit-btn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: red;
+    color: white;
+}
+p{
+    margin-top: 15px;
+}
+/* nav {
+    background-color: #f8f9fa; 
+    padding: 10px 0; 
+}
+
+.menu {
+    max-width: 1200px; 
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.logo a:hover{
+    color: red;
+}
+ul {
+    list-style-type: none; 
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 18px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li a:hover{
+    color: red;
+}
+ul li .dropdown {
+    display: none; 
+    position: absolute;
+    background-color:white; 
+}
+
+ul li:hover .dropdown {
+    display: block; 
+}
+
+ul .dropdown li {
+    display: block;
+}
+
+ul .dropdown li a {
+    padding: 6px; 
+    color: black; 
+    font-size: 16px; 
+}
+
+ul .dropdown li a:hover {
+    color: red;
+    padding: 5px; 
+}
+        
+        footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+.footer-c12, .footer-content2, .footer-21, .footer-22, .footer-content3, .footer-31, .footer-32, .footer-content4, .footer-41, .footer-42{
+    margin-top: 6px;
+}
+.footer-42 li a {
+    color: white; 
+    text-decoration: none; 
+} */

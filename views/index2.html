@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Demo Software
+                    Solutions</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">What we do</a>
+                    <ul class="dropdown">
+                        <li><a href="webapp.html">Web App Development</a></li> 
+                        <li><a href="Mobileappdev.html">Mobile App Development</a></li>
+                        <li><a href="E-Commerce.html">E-Commerce Solutions</a></li>
+                        <li><a href="game.html">Game App Development</a></li>
+                        <li><a href="Graphic design.html">Graphics Design</a></li>
+                        <li><a href="digital marketing.html">Digital Marketing</a></li>
+                    </ul>
+                </li>
+                <li><a href="joinus.html">Join Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">LogIn</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="welcome">Welcome to Demo Software Solutions</h1>
+    <section class="about-us">
+        <p class="about-content">Founded on 18th February 2024, Demo Software Solutions is a leading software
+            development and testing company located in Tamilnadu, India.<br> We endeavour to deliver Crackerjack
+            software
+            solutions with client's business goals as its mainstream.</p>
+    </section>
+    <p class="welcome-content">We provide Software Development services. We design,build and maintain softwares for
+        multiple platforms</p>
+    <section class="whatwedo">
+        <br>
+        <br>
+        <div class="container">
+            <div class="img-grid">
+                <div class="img-box1">
+                    <img src="images/webdevelopment.png" alt="Web Development">
+                    <a href="webapp.html"><p>Web Application Development</p></a>
+                </div>
+                <div class="img-box2">
+                    <img src="images/Mobileapp.png" alt="Mobile App Development">
+                    <a href="Mobileappdev.html"><p>Mobile App Development</p></a>
+                </div>
+                <div class="img-box3">
+                    <img src="images/webdevelopment.png" alt="E-Commerce Solutions">
+                    <a href="E-Commerce.html"><p>E-Commerce Solutions</p></a>
+                </div>
+                <div class="img-box1">
+                    <img src="images/game-app.png" alt="Game App Development">
+                    <a href="game.html"><p>Game App Development</p></a>
+                </div>
+                <div class="img-box2">
+                    <img src="images/webdevelopment.png" alt="Graphics Design">
+                    <a href="Graphic design.html"><p>Graphics Design</p></a>
+                </div>
+                <div class="img-box3">
+                    <img src="images/Mobileapp.png" alt="Digital Marketing">
+                    <a href="digital marketing.html"><p>Digital Marketing</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="more">
+        <div class="heading">
+            <h1>Made in India</h1>
+            <h1>Made for the World</h1>
+        </div>
+        <div class="users-globally">
+            <h2>1M+</h2>
+            <h4>Users Globally</h4>
+        </div>
+        <div class="employees">
+            <h2>100+</h2>
+            <h4>Employees Worldwide</h4>
+        </div>
+        <div class="products">
+            <h2>10+</h2>
+            <h4>Products</h4>
+        </div>
+        <div class="bg-image">
+            <img src="./images/homepage.png">
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content1">
+            <h2 class="footer-c11">Demo Software Solutions</h2>
+            <h4 class="footer-c12">Excellent Software Services Assured</h4>
+        </div>
+        <div class="footer-content2">
+            <h2 class="footer-21">Our Services</h2>
+            <ul class="footer-22">
+                <li>Web Development</li>
+                <li>E-commerce App Development</li>
+                <li>Mobile App Development</li>
+                <li>Game App Development</li>
+                <li>Graphics Design</li>
+                <li>Digital Marketing</li>
+            </ul>
+        </div>
+        <div class="footer-content3">
+            <h2 class="footer-31">Company</h2>
+            <ul class="footer-32">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Careers</li>
+                <li>Login</li>
+            </ul>
+        </div>
+        <div class="footer-content4">
+            <h2 class="footer-41">Follow Us</h2>
+            <ul class="footer-42">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("logoutButton").addEventListener("click", function() {
+            // Send a request to the server to perform logout
+            fetch("/logout", {
+                method: "GET",
+                credentials: "same-origin" // Include cookies in the request
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Redirect to index.html after successful logout
+                    window.location.href = "/index.html";
+                    // Show alert message
+                    alert("Logout successful");
+                } else {
+                    throw new Error("Logout failed");
+                }
+            })
+            .catch(error => {
+                console.error("Logout error:", error);
+                alert("Logout failed. Please try again.");
+            });
+        });
+    </script>
+</body>
+
+</html>
