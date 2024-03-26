@@ -5,6 +5,7 @@ Technologies Used
     CSS
   Backend:
     Express.js
+    Node Js
     JavaScript
     MongoDB
   Others:
